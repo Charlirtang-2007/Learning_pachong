@@ -7,6 +7,15 @@ import scrapy
 
 
 class AqiItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    day = scrapy.Field()#日期
+    aqi = scrapy.Field()#AQI
+    SO2 = scrapy.Field()
+    PM10 = scrapy.Field()
+    ww = scrapy.Field()#质量等级
+    PM2_5 = scrapy.Field()#PM2.5
+    no2 = scrapy.Field()
+    co = scrapy.Field()
+    o3_8h = scrapy.Field()
+
+
+
